@@ -17,10 +17,10 @@ This code requires a working installation of [Caffe](http://caffe.berkeleyvision
 
 **(2)** To extract features, you can (a) use the main branch of Caffe and do color conversion outside of the network or (b) download and install a modified Caffe and not worry about color conversion.
 
-**(2a)** **Color conversion outside of prototxt** To extract features with the main branch of [Caffe](http://caffe.berkeleyvision.org/): <br>
+**(a)** **Color conversion outside of prototxt** To extract features with the main branch of [Caffe](http://caffe.berkeleyvision.org/): <br>
 **(i)** Load the weights `model_splitbrainauto_clcl.caffemodel` with model definition file `deploy_lab.prototxt` in the `models` directory. The input is blob `data_lab`, which is an ***image in Lab colorspace***. You will have to do the Lab color conversion pre-processing outside of the network.
 
-**(2b)** **Color conversion in prototxt** You can also extract features with in-prototxt color version with a modified Caffe. <br>
+**(b)** **Color conversion in prototxt** You can also extract features with in-prototxt color version with a modified Caffe. <br>
 **(i)** Run `./train/fetch_caffe.sh`. This will load a modified Caffe into directory `./caffe-colorization`. <br>
 **(ii)** Install the modified Caffe. For guidelines and help with installation of Caffe, consult the [installation guide](http://caffe.berkeleyvision.org/) and [Caffe users group](https://groups.google.com/forum/#!forum/caffe-users). <br>
 **(iii)** Load the weights `model_splitbrainauto_clcl.caffemodel` with model definition file `deploy.prototxt` in the `models` directory. The input is blob `data`, which is a ***non mean-centered BGR image***.
