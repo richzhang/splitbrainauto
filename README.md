@@ -1,7 +1,8 @@
 # Split-Brain Autoencoders: Unsupervised Learning by Cross-Channel Prediction
-[Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In [ArXiv, 2016](http://arxiv.org/pdf/1603.08511.pdf).
+[Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In ArXiv, 2016.
 
 ![Teaser Image](http://richzhang.github.io/index_files/cvpr2017_splitbrain.png)
+<img src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" alt="" data-canonical-src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" width="200" height="400" />
 
 ### Overview ###
 This repository contains a test time demonstration using a pre-trained Split-Brain Autoencoder network. The network is a feature extractor using the AlexNet architecture, trained in an unsupervised manner.
@@ -10,7 +11,7 @@ This repository contains a test time demonstration using a pre-trained Split-Bra
 Clone the master branch of the respository using `git clone -b master --single-branch https://github.com/richzhang/splitbrainauto.git`
 
 ### Dependencies ###
-This code requires a working installation of [Caffe](http://caffe.berkeleyvision.org/) and basic Python libraries (numpy, pyplot, skimage, scipy). For guidelines and help with installation of Caffe, consult the [installation guide](http://caffe.berkeleyvision.org/) and [Caffe users group](https://groups.google.com/forum/#!forum/caffe-users).
+This code requires a working installation of [Caffe](http://caffe.berkeleyvision.org/). For guidelines and help with installation of Caffe, consult the [installation guide](http://caffe.berkeleyvision.org/) and [Caffe users group](https://groups.google.com/forum/#!forum/caffe-users).
 
 ### Test-Time Usage ###
 **(1)** Run `./train/fetch_models.sh`. This will load model `model_splitbrainauto_clcl.caffemodel` into the `models` directory.
