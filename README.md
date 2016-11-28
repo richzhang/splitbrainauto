@@ -15,7 +15,7 @@ This code requires a working installation of [Caffe](http://caffe.berkeleyvision
 ### Test-Time Usage ###
 **(1)** Run `./train/fetch_models.sh`. This will load model `model_splitbrainauto_clcl.caffemodel` into the `models` directory.
 
-To extract features, you can (a) use the main branch of Caffe and do color conversion outside of the network or (b) download and install a modified Caffe and not worry about color conversion.
+**(2)** To extract features, you can (a) use the main branch of Caffe and do color conversion outside of the network or (b) download and install a modified Caffe and not worry about color conversion.
 
 **(2a)** **Color conversion outside of prototxt** To extract features with the main branch of [Caffe](http://caffe.berkeleyvision.org/): <br>
 **(i)** Load the weights `model_splitbrainauto_clcl.caffemodel` with model definition file `deploy_lab.prototxt` in the `models` directory. The input is blob `data_lab`, which is an ***image in Lab colorspace***. You will have to do the Lab color conversion pre-processing outside of the network.
