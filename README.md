@@ -1,5 +1,5 @@
-# Split-Brain Autoencoders # 
-### Unsupervised Learning by Cross-Channel Prediction ###
+# Split-Brain Autoencoders
+### Unsupervised Learning by Cross-Channel Prediction
 [Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In ArXiv, 2016.
 
 <img src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" height="180" />
