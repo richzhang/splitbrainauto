@@ -2,7 +2,7 @@
 [Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In ArXiv, 2016.
 
 ![Teaser Image](http://richzhang.github.io/index_files/cvpr2017_splitbrain.png)
-<img src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" alt="" data-canonical-src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" width="200" height="400" />
+<img src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" alt="" data-canonical-src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" height="40" />
 
 ### Overview ###
 This repository contains a test time demonstration using a pre-trained Split-Brain Autoencoder network. The network is a feature extractor using the AlexNet architecture, trained in an unsupervised manner.
