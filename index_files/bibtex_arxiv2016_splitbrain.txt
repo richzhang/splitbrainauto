@@ -1,0 +1,6 @@
+@article{zhang2016split,
+  title={Split-Brain Autoencoders: Unsupervised Learning by Cross-Channel Prediction},
+  author={Zhang, Richard and Isola, Phillip and Efros, Alexei A},
+  journal={arXiv},
+  year={2016}
+}
