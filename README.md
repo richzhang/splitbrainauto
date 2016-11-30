@@ -13,7 +13,7 @@ Clone the master branch of the respository using `git clone -b master --single-b
 This code requires a working installation of [Caffe](http://caffe.berkeleyvision.org/). For guidelines and help with installation of Caffe, consult the [installation guide](http://caffe.berkeleyvision.org/) and [Caffe users group](https://groups.google.com/forum/#!forum/caffe-users).
 
 ### Test-Time Usage ###
-**(1)** Run `./train/fetch_models.sh`. This will load model `model_splitbrainauto_clcl.caffemodel`. It will also load model `model_splitbrainauto_clcl_rs.caffemodel`, which is the model with the rescaling method from [Kraehenbuehl et al. ICLR 2016](https://github.com/philkr/magic_init) applied. The rescaling method has been shown to improve fine-tuning performance in some models, and we use it for the PASCAL tests in Table 4 in the paper.
+**(1)** Run `./train/fetch_models.sh`. This will load model `model_splitbrainauto_clcl.caffemodel`. It will also load model `model_splitbrainauto_clcl_rs.caffemodel`, which is the model with the rescaling method from [Kr&auml;henb&uuml;hl et al. ICLR 2016](https://github.com/philkr/magic_init) applied. The rescaling method has been shown to improve fine-tuning performance in some models, and we use it for the PASCAL tests in Table 4 in the paper. Alternatively, download the models from [here](https://people.eecs.berkeley.edu/~rich.zhang/projects/2017_splitbrain/files/models/) and put them in the 'models' directory.
 
 **(2)** To extract features, you can (a) use the main branch of Caffe and do color conversion outside of the network or (b) download and install a modified Caffe and not worry about color conversion.
 
