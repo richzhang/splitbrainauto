@@ -4,7 +4,7 @@
 <img src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" height="180" />
 
 ### Overview ###
-This repository contains a test time demonstration using a pre-trained Split-Brain Autoencoder network. The network is a feature extractor using the AlexNet architecture, trained in an unsupervised manner.
+This repository contains a pre-trained Split-Brain Autoencoder network. The network achieves state-of-the-art results on several large-scale unsupervised representation learning benchmarks.
 
 ### Clone this repository ###
 Clone the master branch of the respository using `git clone -b master --single-branch https://github.com/richzhang/splitbrainauto.git`
