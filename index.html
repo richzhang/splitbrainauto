@@ -149,7 +149,7 @@
 		  		  	  </td>
 	  	              <td align=center width=150px>
 	  					<center>
-	  						<span style="font-size:24px"><a href=''> [Paper]</a></span>
+	  						<span style="font-size:24px"><a href='https://arxiv.org/abs/1611.09842'> [Paper]</a></span>
 		  		  		</center>
 		  		  	  </td>
 			  </table>
@@ -183,7 +183,7 @@
 		  <hr>
 
  		<center><h1>Method</h1></center>
-	  		To perform unsupervised pretraining, we split a network in half in the channel direction to produce two disjoint subnetworks. Each subnetwork is then trained to perform prediction on one subset of data from another subset. <b>(Left) Images</b> Half of the network predicts color channels from grayscale, and the other half predicts grayscale from color. <b>(Right) RGB-D Images</b> Half of the network predicts depth from images, and the other half predicts images from depth. Please see Section 3 of the full paper for additional details.
+	  		To perform unsupervised pretraining, we split a network in half in the channel direction to produce two disjoint subnetworks. Each subnetwork is then trained to perform prediction on one subset of data from another subset. <b>(Left) Images</b> Half of the network predicts color channels from grayscale, and the other half predicts grayscale from color. <b>(Right) RGB-D Images</b> Half of the network predicts depth from images, and the other half predicts images from depth. Please see Section 3 of the full <a href='https://arxiv.org/abs/1611.09842'>paper</a> for additional details.
 
   		  <table align=center width=900px>
 	  		<br>
@@ -206,7 +206,7 @@
 		  <hr>
 
  		<center><h1>Feature Evaluation Results</h1></center>
-  		Here, we show feature evaluation results on large-scale RGB images, which are described in Section 4.1 of the paper. Results on the RGB-D domain are in Section 4.2.
+  		Here, we show feature evaluation results on large-scale RGB images, which are described in Section 4.1 of the <a href='https://arxiv.org/abs/1611.09842'>paper</a>. Results on the RGB-D domain are in Section 4.2.
 
   		The first group of tests are linear classifiers for semantic classification on each layer in the network. We freeze pre-trained AlexNet representations, spatially resize feature maps so that all layers have approximately 9000 dimensions, and train multinomial logistic regression classifiers on the <b>(Left) ImageNet</b> and <b>(Right) Places</b> datasets. <b>ImageNet-labels</b> and <b>Places-labels</b> are networks which are pre-trained in a supervised regime. All other methods shown are unsupervised. Method <b>Split-Brain Auto (cl,cl)</b> is our proposed method, and performs well compared to previous unsupervised/self-supervised methods.
 
@@ -226,7 +226,7 @@
 		  </table>
 
 		<br>
-		We also show performance on several commonly used transfer learning benchmarks on the PASCAL VOC dataset. The table below is Table 4 from the paper, and additional details can be found in Section 4.1.1.
+		We also show performance on several commonly used transfer learning benchmarks on the PASCAL VOC dataset. The table below is Table 4 from the <a href='https://arxiv.org/abs/1611.09842'>paper</a>, and additional details can be found in Section 4.1.1.
 
   		<table align=center width=500px>
   		<br>
@@ -245,10 +245,10 @@
   		  <table align=center width=575px>
 	 		<center><h1>Paper</h1></center>
   			  <tr>
-				  <td><a href=""><img class="layered-paper-big" style="height:175px" src="./index_files/imgs/page1.png"/></a></td>
+				  <td><a href="https://arxiv.org/abs/1611.09842"><img class="layered-paper-big" style="height:175px" src="./index_files/imgs/page1.png"/></a></td>
 				  <td><span style="font-size:14pt">R. Zhang, P. Isola, A. A. Efros.<br>
 				  <b>Split-Brain Autoencoders: Unsupervised Learning by Cross-Channel Prediction.</b><br>
-				  In ArXiv, 2016. (hosted on <a href="">arXiv</a>)</a>
+				  In ArXiv, 2016. (hosted on <a href="https://arxiv.org/abs/1611.09842">arXiv</a>)</a>
 				  <span style="font-size:4pt"><a href=""><br></a>
 				  </span>
 				  </td>
