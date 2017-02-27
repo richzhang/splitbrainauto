@@ -1,5 +1,5 @@
 ## Split-Brain Autoencoders: Unsupervised Learning by Cross-Channel Prediction [[Project Page]](http://richzhang.github.io/splitbrainauto/) ##
-[Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In [ArXiv](https://arxiv.org/abs/1611.09842), 2016.
+[Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In CVPR, 2017. (hosted on [ArXiv](https://arxiv.org/abs/1611.09842))
 
 <img src="http://richzhang.github.io/index_files/cvpr2017_splitbrain.png" height="180" />
 
