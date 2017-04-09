@@ -26,5 +26,5 @@ This code requires a working installation of [Caffe](http://caffe.berkeleyvision
 **(iii)** Load the downloaded weights with model definition file `deploy.prototxt` in the `models` directory. The input is blob `data`, which is a ***non mean-centered BGR image***.
 
 ### Citation ###
-If you find this model useful for your resesarch, please use this [bibtex](http://richzhang.github.io/index_files/bibtex_arxiv2016_splitbrain.txt) to cite.
+If you find this model useful for your resesarch, please use this [bibtex](http://richzhang.github.io/index_files/bibtex_cvpr2017_splitbrain.txt) to cite.
  
