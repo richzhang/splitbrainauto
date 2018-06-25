@@ -78,6 +78,14 @@
 		margin-right: 45px;
 	}
 
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
 
 	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
 		box-shadow:
@@ -268,6 +276,27 @@
 
   		  <br>
 		  <hr>
+
+
+  		  <table align=center width=200 px>
+	 		<center><h1>Poster</h1></center>
+  			  <tr>
+				  <td><a href="./index_files/poster_cvpr.pdf"><img class="paper-big" style="width:600px" src="./index_files/poster_teaser.png"/></a></td>
+              </tr>
+  		  </table>
+		  <br>
+
+		  <table align=center width=600px>
+			  <tr>
+				  <td><span style="font-size:24pt"><center>
+				  	<a href="./index_files/poster_cvpr.pdf">[PDF]</a>
+  	              </center></td>
+              </tr>
+  		  </table>
+
+  		  <br>
+		  <hr>
+
 
  		<center><h1>Try the model</h1></center>
 		  The GitHub page has scripts for fetching our model, and a slightly modified version of Caffe which does color pre-processing (if so desired). We recommend going to the <a href='https://github.com/richzhang/splitbrainauto'>GitHub</a> page and following instructions in the readme.
